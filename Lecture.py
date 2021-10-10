@@ -69,6 +69,9 @@ S = 'ABCDEFGHI'
 # Slice last three characters from the string
 print(S[0:6])
 print(S[-9:-3])
+# not sure if i understood the assignment
+print(S[6:9])
+print(S[-3:])
 # Slice from beginning to end with step 2:
 print(S[0:9:2])
 print(S[-9::2])
