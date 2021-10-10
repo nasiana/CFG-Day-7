@@ -44,4 +44,8 @@ print("{} cats need {} cans per day".format(cats, total_cans))
 # extension
 print(f"{cats} need {total_cans_week} cans to survive for 7 days")
 
+# exercise
 
+guests = ["Mary", "Pete", "Eoin"]
+separator = ', '
+print("We are going to cinema with my classmates:", separator.join(guests), "and me.")
