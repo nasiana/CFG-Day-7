@@ -25,3 +25,16 @@ print(output)
 
 print(f"{oranges} oranges cost £{total_cost}")
 
+# Exercise
+
+# create a program that calculates how many cans of food you need to feed 10 cats
+
+cats = 10
+# cans is a variable which refers to the number of cans eaten by 1 cat per day
+cans = 3
+total_cans = cats * cans
+total_cans_week = total_cans * 7
+
+print(f"{cats} cats need {total_cans} cans per day")
+
+print(f"{cats} need {total_cans_week} cans to survive for 7 days")
