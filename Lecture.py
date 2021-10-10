@@ -75,6 +75,9 @@ print(S[-3:])
 # Slice from beginning to end with step 2:
 print(S[0:9:2])
 print(S[-9::2])
-#Get CD using 2 different slicing ways:
+#Get CD using 4 different slicing ways:
 print(S[2:4])
 print(S[-7:-5])
+# the following two are a combination of positive and negative indexing
+print(S[2:-5])
+print(S[-7:4])
