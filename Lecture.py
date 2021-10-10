@@ -53,3 +53,25 @@ print("We are going to cinema with my classmates:", separator.join(guests), "and
 # Andree's way of doing it
 
 print("We are going to cinema with my classmates: {names} and me.".format(names=', '.join(guests)))
+
+# slicing
+S = 'ABCDEFGHI'
+print(S[0:3])
+print(S[-3:])
+
+# Reverse a string
+S = 'ABCDEFGHI'
+print(S[::-1])
+
+# EXERCISE
+S = 'ABCDEFGHI'
+
+# Slice last three characters from the string
+print(S[0:6])
+print(S[-9:-3])
+# Slice from beginning to end with step 2:
+print(S[0:9:2])
+print(S[-9::2])
+#Get CD using 2 different slicing ways:
+print(S[2:4])
+print(S[-7:-5])
