@@ -49,3 +49,7 @@ print(f"{cats} need {total_cans_week} cans to survive for 7 days")
 guests = ["Mary", "Pete", "Eoin"]
 separator = ', '
 print("We are going to cinema with my classmates:", separator.join(guests), "and me.")
+
+# Andree's way of doing it
+
+print("We are going to cinema with my classmates: {names} and me.".format(names=', '.join(guests)))
