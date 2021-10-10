@@ -35,6 +35,13 @@ cans = 3
 total_cans = cats * cans
 total_cans_week = total_cans * 7
 
+# 1 way to print
 print(f"{cats} cats need {total_cans} cans per day")
 
+# using format method to print
+print("{} cats need {} cans per day".format(cats, total_cans))
+
+# extension
 print(f"{cats} need {total_cans_week} cans to survive for 7 days")
+
+
